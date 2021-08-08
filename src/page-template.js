@@ -10,9 +10,18 @@ module.exports = templateData => {
     console.log(templateData);
 
     return `# ${title}
-        
+
 ## Description
 ${description}
+
+## Table of Contents
+* [Description](#description)
+* [Installation](#installation)
+* [Usage Information](#useage-information)
+* [Contribution Guidelines](#contribution-guidelines)
+* [Test Instructions](#test-instructions)
+* [Questions](#questions)
+* [License](#license)
         
 ## Installation
 ${installation}
